@@ -10073,7 +10073,7 @@ header .search-form .form-control:-moz-placeholder {
 }
 
 .slider-item .slider-text h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: #fff;
   line-height: 1.2;
   font-weight: 700 !important;
@@ -10658,10 +10658,11 @@ header .search-form .form-control:-moz-placeholder {
 
 .block-33 {
   background: #fff;
-  /*max-width: 350px;*/
+  max-height: 594px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
+  overflow: hidden;
 }
 
 .block-33 .vcard .image {
@@ -11251,7 +11252,19 @@ figure figcaption {
 .portfolio-section {
   background: #90a8af;
 }
+.portfolio-section h3,
+.portfolio-section span{
 
+  color: #1b1a1a;
+  font-weight: bold;
+  font-size: 40px;
+  text-align:justify;
+}
+.portfolio-section p {
+
+  color: #292929;
+
+}
 .work-thumb {
   display: block;
   position: relative;
